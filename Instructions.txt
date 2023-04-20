@@ -1,0 +1,14 @@
+TASK 1: Steganography Basics
+
+1. Create a .txt file with a secrete message of your choosing. Place the .txt file and the
+stegimage.png from the repository alone in a directory.
+2. Zip the .txt in a text.zip file. If you do not have archiving software, download something
+like 7-zip or WinRAR.
+3. Open your command line and cd into the relevant directory. Once there, type dir to view
+the contents of the directory.
+4. Enter “copy /b stegimage.png+text.zip image2.png” into the console.
+5. When opening this new image, there should be no differences. Great!
+6. Now try opening this image with an archiving software, and you should see the original
+stegimage.png and text.txt files.
+
+You’ve successfully concealed a secret message in an image file!
